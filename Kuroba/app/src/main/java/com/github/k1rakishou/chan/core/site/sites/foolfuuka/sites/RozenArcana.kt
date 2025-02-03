@@ -37,7 +37,7 @@ class RozenArcana : BaseFoolFuukaSite() {
     val ROOT_URL: HttpUrl = ROOT.toHttpUrl()
     val SITE_NAME: String = ArchiveType.RozenArcana.domain
     val MEDIA_HOSTS: Array<HttpUrl> = arrayOf(ROOT_URL)
-    val NAMES: Array<String> = arrayOf("archive.alice")
+    val NAMES: Array<String> = arrayOf("archive.palanq")
     val CLASS: Class<out Site> = RozenArcana::class.java
 
     val URL_HANDLER = BaseFoolFuukaUrlHandler(ROOT_URL, MEDIA_HOSTS, NAMES, CLASS)

@@ -27,7 +27,7 @@
   "search": ["cm", "co", "ic", "sci", "tg", "y"]
 }, {
   "name": "arch.b4k.co",
-  "domain": "arch.b4k.co",
+  "domain": "arch.b4k.dev",
   "boards": ["g", "mlp", "qb", "v", "vg", "vm", "vmg", "vp", "vrpg", "vst"],
   "files": ["qb", "v", "vg", "vm", "vmg", "vrpg", "vst"],
   "search": ["qb", "v", "vg", "vm", "vmg", "vrpg", "vst"]
@@ -66,7 +66,7 @@
   "search" : ["3", "a", "aco", "adv", "an", "asp", "b", "bant", "biz", "c", "cgl", "ck", "cm", "co", "d", "diy", "e", "f", "fa", "fit", "g", "gd", "gif", "h", "hc", "his", "hm", "hr", "i", "ic", "int", "jp", "k", "lgbt", "lit", "m", "mlp", "mu", "n", "news", "o", "out", "p", "po", "pol", "pw", "qa", "qst", "r", "r9k", "s", "s4s", "sci", "soc", "sp", "t", "tg", "toy", "trash", "trv", "tv", "u", "v", "vg", "vip", "vm", "vmg", "vp", "vr", "vrpg", "vst", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
 }, {
   "name": "Rozen Arcana",
-  "domain": "archive.alice.al",
+  "domain": "archive.palanq.win",
   "boards": ["bant", "c", "con", "e", "n", "news", "out", "p", "toy", "vip", "vmg", "vp", "vst", "vt", "w", "wg", "wsr"],
   "files": ["bant", "c", "con", "e", "n", "news", "out", "p", "toy", "vip", "vmg", "vp", "vst", "vt", "w", "wg", "wsr"]
 }]
