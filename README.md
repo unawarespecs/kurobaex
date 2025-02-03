@@ -1,3 +1,20 @@
+# Note
+
+This is my personal fork of KurobaEx.
+
+The develop branch contains the updated changes before K1 archived the repo, and the stable branch corresponds to the last released version of KurobaEx (v1.3.33) with some changes.
+
+The only changes (for now) are:
+
+- Fixed quote links for some archives (palanq.win)
+- Updated the domain for b4k archive (arch.b4k.co -> arch.b4k.dev)
+- Updated gradle?
+
+Might update the develop branch (eventually) with the same changes outlined above.
+
+### Original README from k1 master repo below
+
+---
 
 # Kuroba Experimental
 
