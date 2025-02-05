@@ -8,14 +8,14 @@ enum class ArchiveType(
     Warosu("warosu.org"),
     DesuArchive("desuarchive.org"),
     Fireden("boards.fireden.net"),
-    B4k("arch.b4k.co"),
+    B4k("arch.b4k.dev"),
     Bstats("archive.b-stats.org"),
     ArchivedMoe("archived.moe"),
     TheBarchive("thebarchive.com"),
     ArchiveOfSins("archiveofsins.com"),
     TokyoChronos("tokyochronos.net"),
     WakarimasenMoe("archive.wakarimasen.moe"),
-    RozenArcana("archive.alice.al");
+    RozenArcana("archive.palanq.win");
 
     fun isFoolFuukaArchive(): Boolean {
         return when (this) {
