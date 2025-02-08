@@ -26,7 +26,11 @@ jobs:
         pip install requests
     - name: Decode Keystore File
       run: |
-        echo ${{ secrets.KEYSTORE }} | base64 -d > ${{ github.workspace }}/kurobaex.jks
+        if [ -z "${{ secrets.KEYSTORE }}" ]; then
+        echo "KEYSTORE secret is not set"
+        exit 1
+        fi
+        echo "${{ secrets.KEYSTORE }}" | base64 --decode > "${{ github.workspace }}/kurobaex.jks"
     - name: Build and Sign APK
       run: |
         cd Kuroba
