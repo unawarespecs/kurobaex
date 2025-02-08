@@ -127,12 +127,12 @@ def get_latest_release_commit_hash(repo, access_token=None):
     return ""
 
 if __name__ == "__main__":
-    tag_name = get_new_tag_name('K1rakishou/Kuroba-Experimental-beta')
+    tag_name = get_new_tag_name('unawarespecs/kurobaex')
     if (len(tag_name) == 0):
         print("Failed to get the release tag.")
         exit(-1)
 
-    latest_release_commit_hash = get_latest_release_commit_hash('K1rakishou/Kuroba-Experimental')
+    latest_release_commit_hash = get_latest_release_commit_hash('unawarespecs/kurobaex')
     if (len(latest_release_commit_hash) == 0):
          print("Failed to get latest release commit hash.")
          exit(-1)
@@ -142,8 +142,8 @@ if __name__ == "__main__":
     print(f'tag_name: {tag_name}')
     print(f'commits:\n{commits}')
 
-    repo = 'K1rakishou/Kuroba-Experimental-beta'
-    release_name = f'KurobaEx-beta release {tag_name}'
+    repo = 'unawarespecs/kurobaex'
+    release_name = f'KurobaEx-beta (unawarespecs fork) release {tag_name}'
 
     body = ""
     if (len(commits) > 0):

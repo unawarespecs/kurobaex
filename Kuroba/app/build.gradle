@@ -99,7 +99,7 @@ android {
             apkVersionNameSuffix = "-beta"
 
             buildConfigField "int", "FLAVOR_TYPE", "1"
-            buildConfigField "int", "UPDATE_DELAY", "1"
+            buildConfigField "int", "UPDATE_DELAY", "99999999"
 
             // The same as in stable flavor
             manifestPlaceholders = [
@@ -187,7 +187,7 @@ android {
                 signingConfig signingConfigs.release
             }
 
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard.cfg'
 
             debuggable = false

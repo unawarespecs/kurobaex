@@ -2,7 +2,7 @@ name: Build and Sign Android APK
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ stable ]
 
 jobs:
   build:
