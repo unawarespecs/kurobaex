@@ -10,7 +10,10 @@ The only changes (for now) are:
 - Updated the domain for b4k archive (arch.b4k.co -> arch.b4k.dev)
 - Updated gradle?
 
-Might update the develop branch (eventually) with the same changes outlined above.
+Todo:
+- Push changes above to develop branch
+- Fix gradle build issues that this anon (https://desuarchive.org/g/thread/104157368/#104214222) encountered
+- Try to fix gradle build for v1.3.34+
 
 ### Original README from k1 master repo below
 
