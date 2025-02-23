@@ -12,10 +12,9 @@ The only changes (for now) are:
 
 Todo:
 - Push changes above to develop branch
+- Actually fix captcha for the stable/develop version (requested by anons on /g/ trying to phonepost on kuroba after new captcha changes)
 - Fix gradle build issues that this anon (https://desuarchive.org/g/thread/104157368/#104214222) encountered
 - Try to fix gradle build for v1.3.34+
-
-- i see you, anons on /g/ (still too dumb to fix captcha)
 
 ### Original README from k1 master repo below
 
