@@ -1,3 +1,11 @@
+# 🚧 Development Paused
+
+This project is no longer actively maintained due to university commitments. I've had to put development on hold for the foreseeable future.
+
+If you're looking for a maintained version, please check out [peaceAndLoveLLC's fork](https://github.com/peaceAndLoveLLC/Kuroba-Experimental), which includes the b4k archive domain change commit and continues development. That fork also incorporates the captcha fix so anons can phonepost again.
+
+Thanks to the anons on /g/ who used, or showed interest in my fork.
+
 # Note
 
 This is my personal fork of KurobaEx.
@@ -8,13 +16,7 @@ The only changes (for now) are:
 
 - Fixed quote links for some archives (palanq.win)
 - Updated the domain for b4k archive (arch.b4k.co -> arch.b4k.dev)
-- Updated gradle?
-
-Todo:
-- Push changes above to develop branch
-- Actually fix captcha for the stable/develop version (requested by anons on /g/ trying to phonepost on kuroba after new captcha changes)
-- Fix gradle build issues that this anon (https://desuarchive.org/g/thread/104157368/#104214222) encountered
-- Try to fix gradle build for v1.3.34+
+- Updated gradle
 
 ### Original README from k1 master repo below
 
